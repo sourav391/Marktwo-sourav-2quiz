@@ -60,6 +60,23 @@ var quearr = [
   
   },
 
+  
+  {
+    que: "The number of clock cycles per second is referred as ___\n(a) Clock speed\n(b) Clock frequency \n(c) Clock rate\n(d)Clock timing ",
+    
+  
+    ans: "a"
+  
+  },
+
+  {
+    que: "Which of the following processor has a fixed length of instructions?\n(a) CISC\n(b) RISC \n(c) EPIC\n(d) Multi-core",
+    
+  
+    ans: "b"
+  
+  },
+
 ];
   //alternative
 // var arrsize = quearr.length;
@@ -77,7 +94,7 @@ for (let que in quearr){
 
 
 
-if (score===3){
+if (score===5){
   console.log("-------------------------------------------------------");
   console.log("Congrats you are being taken to next level");
 }
